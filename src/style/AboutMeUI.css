@@ -6,46 +6,67 @@
 
 .main-ui {
     border: solid white;
+    padding: 20px;
 }
 
 .top-boxes {
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(15px);
+    border-radius: 20px;
+    padding: 10px;
+    
 }
 
 .left-box {
     background-color: yellow;
-
+    border-radius: 50%;
+    margin-right: 10px;
 }
 
 .right-box {
-    background-color: green;
-
+    background-color: rgb(141, 185, 141);
+    border-radius: 20px;
+    padding: 10px;
 }
 
 .middle-box {
-    background-color: blueviolet;
+    background-color: pink;
+    border-radius: 20px;
+    margin: 10px 0;
 }
 
 .bottom-box {
     display: flex;
     flex-direction: row;
+    background-color: pink;
+    border-radius: 20px;
+    padding: 10px;
 }
 
 .bottomleft-box {
     color: white;
     background-color: rgb(44, 43, 43);
+    width: 300px;
+    height: 350px;
+    padding: 10px;
+    border-radius: 20px;
 }
 
 .bottomright-box {
     display: flex;
     flex-direction: column;
+    border-radius: 20px;
 }
 
 .bottomright-top-box {
     background-color: white;
+    border-radius: 20px;
 }
 
 .bottomright-bottom-box {
-    background-color: yellow;
+    background-color: rgb(253, 253, 169);
+    border-radius: 20px;
 }

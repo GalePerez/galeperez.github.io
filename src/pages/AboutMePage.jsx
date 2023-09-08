@@ -1,6 +1,7 @@
 import SideBar from "../components/SideBar"
 import '../style/AboutMeUI.css'
 import '../style/Main.css'
+import '../style/LandingPageBackground.css'
 import model from "/model.png"
 import profile from "/profile.jpg"
 import { Link } from 'react-router-dom';
@@ -79,6 +80,7 @@ function AboutMePage() {
                         </div>
                     </div>
                 </div>
+
             </>
         )
 }

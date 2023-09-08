@@ -13,3 +13,7 @@ a {
     overflow: hidden;
     z-index: -1;
 }
+
+ul li {
+    list-style-type: none;
+}
