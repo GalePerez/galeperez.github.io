@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
 
-.btn {
+.sidebtn {
     display: inline-block;
     padding: 0.9rem 1.8rem;
     font-size: 20px;
@@ -16,11 +16,11 @@
     overflow: hidden;
     z-index: 2;
     font-family: inherit;
-    width: 100px;
+    width: 200px;
     margin: 10px;
    }
    
-   .btn::before {
+   .sidebtn::before {
     content: "";
     position: absolute;
     left: 0;
@@ -33,7 +33,7 @@
     z-index: -1;
    }
    
-   .btn:hover::before {
+   .sidebtn:hover::before {
     transform: translateX(0);
    }
 

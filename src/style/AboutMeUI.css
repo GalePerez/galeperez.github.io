@@ -14,11 +14,13 @@
 }
 
 .left-box {
-    
+    background-color: yellow;
+
 }
 
 .right-box {
     background-color: green;
+
 }
 
 .middle-box {
@@ -31,7 +33,8 @@
 }
 
 .bottomleft-box {
-    background-color: red;
+    color: white;
+    background-color: rgb(44, 43, 43);
 }
 
 .bottomright-box {

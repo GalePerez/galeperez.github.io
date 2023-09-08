@@ -1,5 +1,6 @@
 import SideBar from "../components/SideBar"
 import '../style/AboutMeUI.css'
+import '../style/Main.css'
 import model from "/model.png"
 import profile from "/profile.jpg"
 import { Link } from 'react-router-dom';
@@ -13,7 +14,7 @@ function AboutMePage() {
     return (
             <>
                 <Link to="#"><button>Back</button></Link>
-                <div className="body about-me-ui">
+                <div className="body-color about-me-ui">
                     <div>
                         <SideBar />
                     </div>
@@ -35,7 +36,37 @@ function AboutMePage() {
                         </div>
                         <div className="bottom-box">
                             <div className="bottomleft-box">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, dignissimos.
+                                    <h2>Tech Stacks</h2>
+                                    <ul>
+                                        <li>HTML</li>
+                                            <div className="progress">
+                                                <div className="progress-bar bg-info" role="progressbar" style={{width: "90%", ariaValuenow:'25', ariaValuemin:'0', ariaValuemax:'100'}}></div>
+                                            </div> 
+                                        <li>CSS</li>
+                                            <div className="progress">
+                                                <div className="progress-bar bg-info" role="progressbar" style={{width: "85%", ariaValuenow:'25', ariaValuemin:'0', ariaValuemax:'100'}}></div>
+                                            </div>
+                                        <li>Bootstrap</li>
+                                            <div className="progress">
+                                                <div className="progress-bar bg-info" role="progressbar" style={{width: "75%", ariaValuenow:'25', ariaValuemin:'0', ariaValuemax:'100'}}></div>
+                                            </div>
+                                        <li>Javascript</li>
+                                            <div className="progress">
+                                                <div className="progress-bar bg-info" role="progressbar" style={{width: "60%", ariaValuenow:'25', ariaValuemin:'0', ariaValuemax:'100'}}></div>
+                                            </div>
+                                        <li>ReactJS</li>
+                                            <div className="progress">
+                                                <div className="progress-bar bg-info" role="progressbar" style={{width: "68%", ariaValuenow:'25', ariaValuemin:'0', ariaValuemax:'100'}}></div>
+                                            </div>
+                                        <li>PHP</li>
+                                            <div className="progress">
+                                                <div className="progress-bar bg-info" role="progressbar" style={{width: "50%", ariaValuenow:'25', ariaValuemin:'0', ariaValuemax:'100'}}></div>
+                                            </div>
+                                        <li>MySQL</li>
+                                            <div className="progress">
+                                                <div className="progress-bar bg-info" role="progressbar" style={{width: "50%", ariaValuenow:'25', ariaValuemin:'0', ariaValuemax:'100'}}></div>
+                                            </div>
+                                    </ul>
                             </div>
                             <div className="bottomright-box">
                                 <div className="bottomright-top-box">

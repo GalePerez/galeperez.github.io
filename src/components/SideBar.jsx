@@ -4,19 +4,19 @@ function SideBar() {
     return (
         <>
             <div className='sidebarbuttons'>
-                <div className="btn">
+                <div className="sidebtn">
                     About Me
                 </div>
-                <div className="btn">
+                <div className="sidebtn">
                     Websites
                 </div> 
-                <div className="btn">
+                <div className="sidebtn">
                     Artworks
                 </div> 
-                <div className="btn">
+                <div className="sidebtn">
                     Socials
                 </div>
-                <div className="btn">
+                <div className="sidebtn">
                     Contact Me
                 </div>
            </div>
