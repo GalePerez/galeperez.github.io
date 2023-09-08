@@ -1,0 +1,48 @@
+.about-me-ui {
+    display: flex;
+    flex-direction: row;
+    border: solid red;
+}
+
+.main-ui {
+    border: solid white;
+}
+
+.top-boxes {
+    display: flex;
+    flex-direction: row;
+}
+
+.left-box {
+    
+}
+
+.right-box {
+    background-color: green;
+}
+
+.middle-box {
+    background-color: blueviolet;
+}
+
+.bottom-box {
+    display: flex;
+    flex-direction: row;
+}
+
+.bottomleft-box {
+    background-color: red;
+}
+
+.bottomright-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.bottomright-top-box {
+    background-color: white;
+}
+
+.bottomright-bottom-box {
+    background-color: yellow;
+}

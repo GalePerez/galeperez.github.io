@@ -1,21 +1,28 @@
-import '../style/LandingPage.css';
-import photo from '../../public/Gale.png'
+import '../style/LandingPageBackground.css';
+import '../style/LandingPage.css'
+import '../style/Main.css'
+import photo from '/Gale.png'
+import { Link } from "react-router-dom";
+
 
 function LandingPage() {
     return (
         <>
             <div className='front'>
                 <div className='photo'>
-                    <img src={photo} />
+                    <img src={photo} style={{width: '300px'}}/>
                 </div>
-                <div>
-                    <h1>Gale's PPortfolio</h1>
+                <div className='title'>
+                    <h1>Gale's Portfolio</h1>
+                </div>
+                <div className='start'>
+                    <Link to='/about-me'>Press to Start</Link>
                 </div>
             </div>
-            <div>
-
+            <div className='ig'>
+                @akariyuu_san
             </div>
-            <div class="background">
+            <div className="background">
                 <span></span>
                 <span></span>
                 <span></span>
