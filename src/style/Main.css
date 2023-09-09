@@ -1,6 +1,6 @@
-a {
-    color: white;
+a:hover, a:active, a:visited, a:link, a{
     text-decoration: none;
+    color: white;
 }
 
 .body-color {

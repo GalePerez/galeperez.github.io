@@ -3,15 +3,18 @@
 .sidebtn {
     display: inline-block;
     padding: 0.9rem 1.8rem;
-    font-size: 20px;
+    font-size: 1.55rem;
     font-family: 'Outfit', sans-serif;
     color: white;
-    border: 3px solid rgb(0, 195, 255);
+    border: 1px solid rgb(0, 195, 255);
+    border-radius: 20px;
     cursor: pointer;
     position: relative;
-    left: -30px;
+    left: -25px;
     top: 80px;
-    background-color: transparent;
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(249, 249, 249, 0.3) 0%, rgba(167,167,167,.3) 50%);
+    backdrop-filter: blur(40px);
     text-decoration: none;
     overflow: hidden;
     z-index: 2;
@@ -41,3 +44,23 @@
     display: flex;
     flex-direction: column;
    }
+
+   @media screen and (max-width: 1117px) {
+    .sidebarbuttons {
+        display: flex;
+        flex-direction: column;
+       }
+    
+    .sidebtn {
+        display: inline-block;
+        padding: 0.9rem 1.8rem;
+        left: 0;
+        top: 80px;
+        background: rgb(255,255,255);
+        background: linear-gradient(90deg, rgba(249, 249, 249, 0.3) 0%, rgba(167,167,167,.3) 50%);
+        backdrop-filter: blur(40px);
+        text-decoration: none;
+        width: 200px;
+        margin: 5px;
+       }
+}

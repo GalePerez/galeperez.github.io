@@ -15,7 +15,7 @@ function LandingPage() {
                 <div className='title'>
                     <h1>Gale's Portfolio</h1>
                 </div>
-                <div className='start'>
+                <div className='start text-decoration-none'>
                     <Link to='/about-me'>Press to Start</Link>
                 </div>
             </div>

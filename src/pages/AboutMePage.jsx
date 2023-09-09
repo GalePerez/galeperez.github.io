@@ -1,26 +1,30 @@
 import SideBar from "../components/SideBar"
+import NavBar from "../components/NavBar"
 import '../style/AboutMeUI.css'
 import '../style/Main.css'
-import '../style/LandingPageBackground.css'
 import model from "/model.png"
 import profile from "/profile.jpg"
 import { Link } from 'react-router-dom';
 
 const profileStyle = {
-    width: '250px', 
+    width: '150px', 
     borderRadius: '50%'
 }
+
+const modelStyle = {
+    width: '30vw',
+    margin: '40px',
+
+}
+
 
 function AboutMePage() {
     return (
             <>
-                <Link to="#"><button>Back</button></Link>
-                <div className="body-color about-me-ui">
+                <div className="about-me-ui">
+                    <NavBar />
                     <div>
-                        <SideBar />
-                    </div>
-                    <div>
-                        <img src={model} />
+                        <img src={model} style={modelStyle} className="model1"/>
                     </div>
                     <div className="main-ui">
                         <div className="top-boxes">
@@ -79,6 +83,33 @@ function AboutMePage() {
                             </div>
                         </div>
                     </div>
+                </div>
+                <div className="background">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
                 </div>
 
             </>
