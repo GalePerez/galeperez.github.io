@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 import "../style/Navbar.css"
 
 function NavBar() {
@@ -6,24 +7,19 @@ function NavBar() {
             <aside>
             <p> Menu </p>
             <a href="#">
-                <i className="fa fa-user-o" aria-hidden="true"></i>
-                My drive
+                <h3>Profile</h3>
             </a>
             <a href="#">
-                <i className="fa fa-laptop" aria-hidden="true"></i>
-                Computers
+                <h3>Websites</h3>
             </a>
             <a href="#">
-                <i className="fa fa-clone" aria-hidden="true"></i>
-                Shared with me
+                <h3>Artworks</h3>
             </a>
             <a href="#">
-                <i className="fa fa-star-o" aria-hidden="true"></i>
-                Starred
+                <h3>Socials</h3>
             </a>
             <a href="#">
-                <i className="fa fa-trash-o" aria-hidden="true"></i>
-                Trash
+                <h3>Contact</h3>
             </a>
             </aside>
 
@@ -32,7 +28,7 @@ function NavBar() {
                 
                     <div className="s-layout__sidebar">
                         <a className="s-sidebar__trigger" href="#0">
-                            <i className="fa fa-bars"></i>
+                            <i className="fa fa-bars fa-xl"></i>
                         </a>
                     
                         <nav className="s-sidebar__nav">
@@ -54,9 +50,9 @@ function NavBar() {
                                 </li>
                             </ul>
                         </nav>
+                    </div>
                 </div>
             </div>
-     </div>
 
         </>
     )

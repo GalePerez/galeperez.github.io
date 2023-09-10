@@ -1,10 +1,10 @@
-import SideBar from "../components/SideBar"
 import NavBar from "../components/NavBar"
 import '../style/AboutMeUI.css'
 import '../style/Main.css'
 import model from "/model.png"
 import profile from "/profile.jpg"
-import { Link } from 'react-router-dom';
+import AnimatedBackground from "../components/AnimatedBackground"
+import { Link,  useNavigate} from 'react-router-dom';
 
 const profileStyle = {
     width: '150px', 
@@ -19,8 +19,15 @@ const modelStyle = {
 
 
 function AboutMePage() {
+    const navigate = useNavigate();
+	const clickHandler = () => {
+		navigate(-1, {replace: true});
+}
     return (
-            <>
+            <>  
+                <div className="back-arrow">
+                <Link to={'#'}><i className="fa-solid fa-arrow-left fa-xl" onClick={clickHandler} style={{color: 'ffffff'}}>back</i></Link>
+                </div>
                 <div className="about-me-ui">
                     <NavBar />
                     <div>
@@ -84,33 +91,8 @@ function AboutMePage() {
                         </div>
                     </div>
                 </div>
-                <div className="background">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </div>
+                <AnimatedBackground />
+                
 
             </>
         )

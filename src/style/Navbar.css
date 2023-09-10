@@ -4,8 +4,12 @@ aside {
     padding-left: 20px;
     height: 120vh;
     width: 350px;
-    background-image: linear-gradient(30deg , #1d0032, #5c017d);
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(78, 0, 156, 0.3) 0%, rgba(167,167,167,.3) 50%);
+    backdrop-filter: blur(50px);
     border-top-right-radius: 80px;
+    font-family: 'Outfit', sans-serif;
+    font-size: 1.5rem;
   }
   
   aside a {
@@ -19,11 +23,11 @@ aside {
   }
   
   aside a:hover {
-    color: #3f5efb;
+    color: #01030a;
     background: #fff;
     outline: none;
     position: relative;
-    background-color: #fff;
+    background-color: #ffffff;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
   }
@@ -98,7 +102,6 @@ aside {
     .s-layout {
         display: flex;
         width: 100%;
-        min-height: 100vh;
         position: sticky;
         top: 0;
     }
@@ -118,7 +121,7 @@ aside {
         left: 0;
         width: 100%;
         height: 4em;
-        background: #192b3c;
+        background: #180038;
     }
     
     .s-sidebar__trigger > i {
@@ -135,7 +138,9 @@ aside {
         transition: all .3s ease-in;
         width: 15em;
         height: 100%;
-        background: #243e56;
+        background: rgb(255,255,255);
+        background: linear-gradient(90deg, rgba(218, 159, 255, 0.3) 0%, rgba(162, 95, 173, 0.2) 50%);
+        backdrop-filter: blur(30px);
         color: rgba(255, 255, 255, 0.7);
     }
     

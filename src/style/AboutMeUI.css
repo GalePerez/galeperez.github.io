@@ -1,3 +1,7 @@
+.back-arrow {
+    margin: 20px 0 10px 10px ;
+}
+
 .about-me-ui {
     display: flex;
     flex-direction: row;
@@ -22,7 +26,7 @@
     justify-content: center;
     align-items: center;
     background: rgb(255,255,255);
-    background: linear-gradient(90deg, rgba(255, 255, 255, 0.3) 0%, rgba(167,167,167,.2) 50%);
+    background: linear-gradient(90deg, rgba(218, 159, 255, 0.3) 0%, rgba(82, 49, 88, 0.2) 50%);
     backdrop-filter: blur(20px);
     border-radius: 20px;
     padding: 20px;
@@ -36,7 +40,7 @@
 
 .right-box {
     background: rgb(255,255,255);
-    background: linear-gradient(90deg, rgba(249, 249, 249, 0.1) 0%, rgba(72, 72, 72, 0.1) 50%);
+    background: linear-gradient(90deg, rgba(218, 159, 255, 0.3) 0%, rgba(82, 49, 88, 0.2) 50%);
     backdrop-filter: blur(30px);
     border-radius: 20px;
     padding: 15px;
@@ -45,7 +49,7 @@
 
 .middle-box {
     background: rgb(255,255,255);
-    background: linear-gradient(90deg, rgba(255, 255, 255, 0.3) 0%, rgba(167,167,167,.2) 50%);
+    background: linear-gradient(90deg, rgba(218, 159, 255, 0.3) 0%, rgba(82, 49, 88, 0.2) 50%);
     backdrop-filter: blur(30px);
     border-radius: 20px;
     margin: 10px 0;
@@ -55,7 +59,7 @@
 
 .bottom-box {
     background: rgb(255,255,255);
-    background: linear-gradient(90deg, rgba(249, 249, 249, 0.3) 0%, rgba(167,167,167,.2) 50%);
+    background: linear-gradient(90deg, rgba(218, 159, 255, 0.3) 0%, rgba(82, 49, 88, 0.2) 50%);
     backdrop-filter: blur(30px);
     display: flex;
     flex-direction: row;
@@ -64,11 +68,11 @@
 }
 
 .bottomleft-box {
-    background: rgb(255,255,255);
-    background: linear-gradient(90deg, rgba(249, 249, 249, 0.1) 0%, rgba(167,167,167,.1) 50%);
+    background: rgb(255, 255, 255);
+    background: linear-gradient(90deg, rgba(218, 159, 255, 0.3) 0%, rgba(82, 49, 88, 0.2) 50%);
     backdrop-filter: blur(40px);
     color: white;
-    width: 300px;
+    width: 100% ;
     height: 350px;
     padding: 10px;
     margin-right: 10px;
@@ -76,24 +80,31 @@
 }
 
 .bottomright-box {
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(218, 159, 255, 0.3) 0%, rgba(82, 49, 88, 0.2) 50%);
+    backdrop-filter: blur(30px);
     display: flex;
     flex-direction: column;
-    border-radius: 20px;
+    border-radius: 20px;padding: 20px;
 }
 
 .bottomright-top-box {
     background: rgb(255,255,255);
-    background: linear-gradient(90deg, rgba(249, 249, 249, 0.3) 0%, rgba(167,167,167,.3) 50%);
+    background: linear-gradient(90deg, rgba(218, 159, 255, 0.3) 0%, rgba(162, 95, 173, 0.2) 50%);
     backdrop-filter: blur(30px);
     border-radius: 20px;
     margin-bottom: 10px;
+    color: white;
+    padding: 10px;
 }
 
 .bottomright-bottom-box {
     background: rgb(255,255,255);
-    background: linear-gradient(90deg, rgba(249, 249, 249, 0.3) 0%, rgba(167,167,167,.3) 50%);
+    background: linear-gradient(90deg, rgba(218, 159, 255, 0.3) 0%, rgba(162, 95, 173, 0.2) 50%);
     backdrop-filter: blur(30px);
     border-radius: 20px;
+    color: white;
+    padding: 10px;
 }
 
 @media screen and (max-width: 1117px) {
@@ -109,5 +120,22 @@
 
     .main-ui {
         margin-top: 10vh;
+    }
+
+    .top-boxes {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .left-box {
+        margin-bottom: 20px;
+    }
+
+    .bottom-box {
+        flex-direction: column;
+    }
+
+    .bottomleft-box {
+        margin-bottom: 20px;
     }
 }
