@@ -14,6 +14,25 @@
 
 }
 
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: #3bd8ff #320054;
+  }
+
+  *::-webkit-scrollbar {
+    width: 15px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #2b0047;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #00abd6;
+    border-radius: 20px;
+    border: 1px solid #e300f3;
+  }
+
 @media screen and (max-width: 1117px) {
     .gallery-container {
         margin-left: 0;

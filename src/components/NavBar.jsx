@@ -12,7 +12,7 @@ function NavBar() {
             <Link to="/website">
                 <h4>Websites</h4>
             </Link>
-            <Link to="#">
+            <Link to="/artworks">
                 <h4>Artworks</h4>
             </Link>
             <Link to="#">

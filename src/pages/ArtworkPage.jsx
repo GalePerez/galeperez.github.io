@@ -1,16 +1,17 @@
 import WebsiteContainer from "../components/WebsiteContainer"
 import AnimatedBackground from "../components/AnimatedBackground.jsx"
-import Gallery from "../components/WebsiteGallery"
+import ArtworkGallery from "../components/ArtworkGallery.jsx"
 
-function WebsiteGalleryPage() {
+function ArtworkPage() {
     return (
         <>
             <WebsiteContainer>
-                <Gallery />
+                <ArtworkGallery />
                 <AnimatedBackground />
             </WebsiteContainer>
         </>
     )
+
 }
 
-export default WebsiteGalleryPage
+export default ArtworkPage
