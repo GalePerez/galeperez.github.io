@@ -13,6 +13,7 @@ function App() {
       <BrowserRouter>
         <Routes>
             <Route path="/" element={<LandingPage />} />
+            <Route path="/landing-page" element={<LandingPage />} />
             <Route path="/about-me" element={<AboutMePage />} />
             <Route path="/website" element={<WebsiteGalleryPage />} />
             <Route path="/artworks" element={<ArtworkPage />} />
