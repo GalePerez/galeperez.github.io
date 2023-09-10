@@ -1,10 +1,11 @@
-import NavBar from "../components/NavBar"
+
 import '../style/AboutMeUI.css'
 import '../style/Main.css'
 import model from "/model.png"
 import profile from "/profile.jpg"
 import AnimatedBackground from "../components/AnimatedBackground"
 import { Link,  useNavigate} from 'react-router-dom';
+import WebsiteContainer from "../components/WebsiteContainer.jsx"
 
 const profileStyle = {
     width: '150px', 
@@ -12,35 +13,40 @@ const profileStyle = {
 }
 
 const modelStyle = {
-    width: '30vw',
-    margin: '40px',
-
+    width: '40vw',
+    marginLeft: '10vw',
+    top: '10vh',
 }
-
-
 function AboutMePage() {
-    const navigate = useNavigate();
-	const clickHandler = () => {
-		navigate(-1, {replace: true});
-}
     return (
             <>  
-                <div className="back-arrow">
-                <Link to={'#'}><i className="fa-solid fa-arrow-left fa-xl" onClick={clickHandler} style={{color: 'ffffff'}}>back</i></Link>
-                </div>
-                <div className="about-me-ui">
-                    <NavBar />
+                <WebsiteContainer>
                     <div>
                         <img src={model} style={modelStyle} className="model1"/>
                     </div>
+                    <div className="empty-space">
+                        <span></span>
+                    </div>
                     <div className="main-ui">
+                        <h5 className="text-light text-center">Profile</h5>
                         <div className="top-boxes">
                             <div className="left-box">
                                 <img src={profile} style={profileStyle}/>
                             </div>
                             <div className="right-box">
-                                <h1>Jeimyre Gale Perez</h1>
-                                <h3>Digital Artist/Front-End Web Developer</h3>
+                                <h2>Jeimyre Gale Perez</h2>
+                                <hr/>
+                                <h5>Digital Artist / Front-End Web Developer</h5>
+                                <div className="d-flex flex-direction-column">
+                                <i className="fa-brands fa-instagram me-2" style={{color: '#ffffff'}}></i>
+                                    <h6>akariyuu_san</h6>
+                                </div>
+                                
+                                <div className="d-flex flex-direction-column">
+                                    <i className="fa-solid fa-location-dot me-2" style={{color: '#ffffff'}}></i>
+                                    <h6>South Cotabato, Philippines</h6>
+                                </div>
+
                             </div>
                         </div>
                         <div className="middle-box">
@@ -90,9 +96,8 @@ function AboutMePage() {
                             </div>
                         </div>
                     </div>
-                </div>
                 <AnimatedBackground />
-                
+                </WebsiteContainer>
 
             </>
         )

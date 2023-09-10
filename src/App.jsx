@@ -1,6 +1,7 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import LandingPage from "./pages/LandingPage";
 import AboutMePage from "./pages/AboutMePage";
+import WebsiteGalleryPage from "./pages/WebsiteGalleryPage";
 import './style/Main.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -12,6 +13,7 @@ function App() {
         <Routes>
             <Route path="/" element={<LandingPage />} />
             <Route path="/about-me" element={<AboutMePage />} />
+            <Route path="/website" element={<WebsiteGalleryPage />} />
         </Routes>
       </BrowserRouter>
       

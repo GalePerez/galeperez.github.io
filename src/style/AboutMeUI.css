@@ -1,23 +1,32 @@
 .back-arrow {
     margin: 20px 0 10px 10px ;
+    position: sticky;
+    top: 20px;
 }
 
 .about-me-ui {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin: 0;
+}
+
+.empty-space {
+    width: 70vw;
 }
 
 .model1 {
     display: block;
+    position: fixed;
+    z-index: 20;
 }
 
 .main-ui {
     background: rgb(255,255,255);
     background: linear-gradient(90deg, rgba(255, 255, 255, 0.2) 0%, rgba(115, 115, 115, 0.1) 50%);
-    
     border-radius: 20px;
     padding: 15px;
+    width: 100%;
 }
 
 .top-boxes {
@@ -45,6 +54,7 @@
     border-radius: 20px;
     padding: 15px;
     color: white;
+    width: 100%;
 }
 
 .middle-box {
@@ -108,11 +118,11 @@
 }
 
 @media screen and (max-width: 1117px) {
-    .about-me-ui {
-        display: flex;
-        flex-direction: column-reverse;
-    }
 
+    .empty-space {
+        display: none;
+    }
+    
     
     .model1 {
         display: none;

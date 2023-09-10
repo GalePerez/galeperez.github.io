@@ -3,13 +3,13 @@ aside {
     width: 250px;
     padding-left: 20px;
     height: 120vh;
-    width: 350px;
-    background: rgb(255,255,255);
-    background: linear-gradient(90deg, rgba(78, 0, 156, 0.3) 0%, rgba(167,167,167,.3) 50%);
+    width: 250px;
+    background: rgba(132, 97, 186, 0.3);
     backdrop-filter: blur(50px);
     border-top-right-radius: 80px;
     font-family: 'Outfit', sans-serif;
     font-size: 1.5rem;
+    position: fixed;
   }
   
   aside a {
@@ -32,10 +32,7 @@ aside {
     border-bottom-left-radius: 20px;
   }
   
-  aside a i {
-    margin-right: 5px;
-  }
-  
+
   aside a:hover::after {
     content: "";
     position: absolute;
@@ -52,7 +49,7 @@ aside {
     content: "";
     position: absolute;
     background-color: transparent;
-    top: 38px;
+    top: 60px;
     right: 0;
     height: 35px;
     width: 35px;
@@ -65,24 +62,6 @@ aside {
     padding: 40px 0;
   }
   
-
-  
-  .social {
-    height: 0;  
-  }
-  
-  .social i:before {
-    width: 14px;
-    height: 14px;
-    font-size: 14px;
-    position: fixed;
-    color: #fff;
-    background: #0077B5;
-    padding: 10px;
-    border-radius: 50%;
-    top:5px;
-    right:5px;
-  }
 
   .mobileview {
     display: none;
