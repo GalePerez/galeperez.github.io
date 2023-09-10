@@ -1,3 +1,10 @@
+.model2 {
+  position: fixed;
+  z-index: 20;
+  bottom: 0;
+  left: 10vw;
+}
+
 .gallery-container {
     background: rgb(255,255,255);
     background: linear-gradient(90deg, rgba(248, 236, 255, 0.3) 0%, rgba(82, 49, 88, 0.2) 50%);
@@ -37,6 +44,10 @@
     .gallery-container {
         margin-left: 0;
         margin-top: 5vh;
+    }
+
+    .model2 {
+      display: none;
     }
 
 
