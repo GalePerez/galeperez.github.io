@@ -14,7 +14,7 @@ const profileStyle = {
 
 const modelStyle = {
     width: '40vw',
-    marginLeft: '10vw',
+    marginLeft: '5vw',
     top: '10vh',
 }
 function AboutMePage() {
@@ -50,7 +50,13 @@ function AboutMePage() {
                             </div>
                         </div>
                         <div className="middle-box">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos blanditiis porro assumenda eligendi dolorum ratione debitis laudantium tempore perspiciatis amet.
+                            <h6>I'm Gale, a digital artist skilled in front-end coding. 
+                                I merge creativity and code to craft captivating
+                                digital art and user-friendly websites. Let's
+                                bring your vision to life together. Explore
+                                my portfolio and connect with me for collaborations 
+                                and commissions.
+                            </h6>
                         </div>
                         <div className="bottom-box">
                             <div className="bottomleft-box">
