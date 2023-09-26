@@ -1,6 +1,7 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import LandingPage from "./pages/LandingPage";
 import AboutMePage from "./pages/AboutMePage";
+import ContactPage from "./pages/ContactPage";
 import WebsiteGalleryPage from "./pages/WebsiteGalleryPage";
 import ArtworkPage from "./pages/ArtworkPage.jsx"
 import './style/Main.css';
@@ -17,6 +18,7 @@ function App() {
             <Route path="/about-me" element={<AboutMePage />} />
             <Route path="/website" element={<WebsiteGalleryPage />} />
             <Route path="/artworks" element={<ArtworkPage />} />
+            <Route path="/contact" element={<ContactPage />} />
         </Routes>
       </BrowserRouter>
       

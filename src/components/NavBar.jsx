@@ -15,10 +15,7 @@ function NavBar() {
             <Link to="/artworks">
                 <h4>Artworks</h4>
             </Link>
-            <Link to="#">
-                <h4>Socials</h4>
-            </Link>
-            <Link to="#">
+            <Link to="/contact">
                 <h4>Contact</h4>
             </Link>
             </aside>
@@ -44,14 +41,9 @@ function NavBar() {
                                     </div>
                                 </li>
                                 <li>
-                                    <a className="s-sidebar__nav-link" href="#0">
-                                        <h1>Artworks</h1>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a className="s-sidebar__nav-link" href="#0">
-                                        <h1>Socials</h1>
-                                    </a>
+                                <div className="s-sidebar__nav-link" href="#0">
+                                        <Link to="/socials"><h1>Socials</h1></Link>
+                                    </div>
                                 </li>
                                 <li>
                                     <a className="s-sidebar__nav-link" href="#0">
