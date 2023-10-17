@@ -1,41 +1,50 @@
 function ArtworkCards() {
     return (
         <>
-            <div className="card" style={{width: '18rem'}}>
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShuMeDWjGZVtPmfU0eiP0xx9bAkkrMlrRaRg&usqp=CAU" class="card-img-top" alt="..." />
+            <div className="m-2">
+                <img src="../../public/art/1.png" className="rounded-4"  style={{width: '18rem'}} alt="Akari Art" />
             </div>
-            <div className="card" style={{width: '18rem'}}>
-                <img src="https://t3.ftcdn.net/jpg/02/48/42/64/360_F_248426448_NVKLywWqArG2ADUxDq6QprtIzsF82dMF.jpg" class="card-img-top" alt="..." />
+            <div className="m-2">
+                <img src="../../public/art/4.png" className="rounded-4" style={{width: '18rem'}} alt="Akari Art" />
             </div>
-            <div className="card" style={{width: '18rem'}}>
-                <img src="https://t3.ftcdn.net/jpg/02/48/42/64/360_F_248426448_NVKLywWqArG2ADUxDq6QprtIzsF82dMF.jpg" class="card-img-top" alt="..." />
+            <div className="m-2">
+                <img src="../../public/art/7.png" className="rounded-4" style={{width: '18rem'}} alt="Akari Art" />
             </div>
-            <div className="card" style={{width: '18rem'}}>
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShuMeDWjGZVtPmfU0eiP0xx9bAkkrMlrRaRg&usqp=CAU" class="card-img-top" alt="..." />
+            <div className="m-2">
+                <img src="../../public/art/2.png" className="rounded-4" style={{width: '18rem'}} alt="Akari Art" />
             </div>
-            <div className="card" style={{width: '18rem'}}>
-                <img src="https://t3.ftcdn.net/jpg/02/48/42/64/360_F_248426448_NVKLywWqArG2ADUxDq6QprtIzsF82dMF.jpg" class="card-img-top" alt="..." />
+            <div className="m-2">
+                <img src="../../public/art/8.png" className="rounded-4" style={{width: '18rem'}} alt="Akari Art" />
             </div>
-            <div className="card" style={{width: '18rem'}}>
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShuMeDWjGZVtPmfU0eiP0xx9bAkkrMlrRaRg&usqp=CAU" class="card-img-top" alt="..." />
+            <div className="m-2">
+                <img src="../../public/art/6.png" className="rounded-4" style={{width: '18rem'}} alt="Akari Art" />
             </div>
-            <div className="card" style={{width: '18rem'}}>
-                <img src="https://t3.ftcdn.net/jpg/02/48/42/64/360_F_248426448_NVKLywWqArG2ADUxDq6QprtIzsF82dMF.jpg" class="card-img-top" alt="..." />
+            <div className="m-2">
+                <img src="../../public/art/3.png" className="rounded-4" style={{width: '18rem'}} alt="Akari Art" />
             </div>
-            <div className="card" style={{width: '18rem'}}>
-                <img src="https://t3.ftcdn.net/jpg/02/48/42/64/360_F_248426448_NVKLywWqArG2ADUxDq6QprtIzsF82dMF.jpg" class="card-img-top" alt="..." />
+            <div className="m-2">
+                <img src="../../public/art/5.png" className="rounded-4" style={{width: '18rem'}} alt="Akari Art" />
             </div>
-            <div className="card" style={{width: '18rem'}}>
-                <img src="https://t3.ftcdn.net/jpg/02/48/42/64/360_F_248426448_NVKLywWqArG2ADUxDq6QprtIzsF82dMF.jpg" class="card-img-top" alt="..." />
+            <div className="m-2">
+                <img src="../../public/art/10.png" className="rounded-4" style={{width: '18rem'}} alt="Akari Art" />
             </div>
-            <div className="card" style={{width: '18rem'}}>
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShuMeDWjGZVtPmfU0eiP0xx9bAkkrMlrRaRg&usqp=CAU" class="card-img-top" alt="..." />
+            <div className="m-2">
+                <img src="../../public/art/9.png" className="rounded-4" style={{width: '18rem'}} alt="Akari Art" />
             </div>
-            <div className="card" style={{width: '18rem'}}>
-                <img src="https://t3.ftcdn.net/jpg/02/48/42/64/360_F_248426448_NVKLywWqArG2ADUxDq6QprtIzsF82dMF.jpg" class="card-img-top" alt="..." />
+            <div className="m-2">
+                <img src="../../public/art/11.png" className="rounded-4" style={{width: '18rem'}} alt="Akari Yuu" />
             </div>
-            <div className="card" style={{width: '18rem'}}>
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShuMeDWjGZVtPmfU0eiP0xx9bAkkrMlrRaRg&usqp=CAU" class="card-img-top" alt="..." />
+            <div className="m-2">
+                <img src="../../public/art/14.png" className="rounded-4" style={{width: '18rem'}} alt="Akari Yuu" />
+            </div>
+            <div className="m-2">
+                <img src="../../public/art/12.png" className="rounded-4" style={{width: '18rem'}} alt="Akari Yuu" />
+            </div>
+            <div className="m-2">
+                <img src="../../public/art/13.png" className="rounded-4" style={{width: '18rem'}} alt="Akari Yuu" />
+            </div>
+            <div className="m-2">
+                <img src="../../public/art/15.png" className="rounded-4" style={{width: '18rem'}} alt="Akari Yuu" />
             </div>
         </>
     )

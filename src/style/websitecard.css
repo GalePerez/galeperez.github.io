@@ -1,0 +1,9 @@
+.static {
+    position: absolute;
+    background: white;
+    transition:  linear .3s
+  }
+
+  .static:hover {
+    opacity: 0;
+  }
